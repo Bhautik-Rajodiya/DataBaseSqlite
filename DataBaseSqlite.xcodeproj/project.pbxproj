@@ -64,17 +64,17 @@
 		E86B5C3129BC5577006736BF /* DataBaseSqlite */ = {
 			isa = PBXGroup;
 			children = (
-				BECB89AF2A41B13500AA49B9 /* ViewController4.swift */,
+				E86B5C4029BC557A006736BF /* Info.plist */,
+				E86B5C3D29BC557A006736BF /* LaunchScreen.storyboard */,
 				E86B5C3229BC5577006736BF /* AppDelegate.swift */,
 				E86B5C3429BC5577006736BF /* SceneDelegate.swift */,
-				E86B5C3629BC5577006736BF /* ViewController.swift */,
+				E86B5C3B29BC557A006736BF /* Assets.xcassets */,
 				E86B5C4629BC55E7006736BF /* SQLHelper.swift */,
+				E86B5C3829BC5577006736BF /* Main.storyboard */,
+				E86B5C3629BC5577006736BF /* ViewController.swift */,
 				E86B5C4929BCABAE006736BF /* ViewController2.swift */,
 				E86B5C4B29BCAF3B006736BF /* MyTableViewCell.swift */,
-				E86B5C3829BC5577006736BF /* Main.storyboard */,
-				E86B5C3B29BC557A006736BF /* Assets.xcassets */,
-				E86B5C3D29BC557A006736BF /* LaunchScreen.storyboard */,
-				E86B5C4029BC557A006736BF /* Info.plist */,
+				BECB89AF2A41B13500AA49B9 /* ViewController4.swift */,
 			);
 			path = DataBaseSqlite;
 			sourceTree = "<group>";

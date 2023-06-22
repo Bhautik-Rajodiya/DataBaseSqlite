@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        SQLHelper.creatFlie()
+        SQLHelper.creatFile()
         
     }
 
@@ -29,10 +29,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func deleteButton(_ sender: Any) {
-        if let x = idTextFiled.text , let y = Int(x) {
-            SQLHelper.deleteData(name: nameTextFiled.text ?? "", id: y)
-        }
-        
+        SQLHelper.deleteData(name: nameTextFiled.text ?? "")
     }
     func neviction() {
         let neviget = storyboard?.instantiateViewController(withIdentifier: "ViewController2") as! ViewController2 
