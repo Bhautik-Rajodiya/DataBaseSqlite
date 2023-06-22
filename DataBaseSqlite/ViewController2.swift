@@ -14,6 +14,7 @@ class ViewController2: UIViewController,UITableViewDelegate,UITableViewDataSourc
     var abc = SQLHelper.retriveData()
     override func viewDidLoad() {
         super.viewDidLoad()
+        
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

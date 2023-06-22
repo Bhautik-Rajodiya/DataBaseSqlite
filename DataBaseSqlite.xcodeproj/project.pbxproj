@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BECB89B02A41B13500AA49B9 /* ViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECB89AF2A41B13500AA49B9 /* ViewController4.swift */; };
 		E86B5C3329BC5577006736BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86B5C3229BC5577006736BF /* AppDelegate.swift */; };
 		E86B5C3529BC5577006736BF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86B5C3429BC5577006736BF /* SceneDelegate.swift */; };
 		E86B5C3729BC5577006736BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86B5C3629BC5577006736BF /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BECB89AF2A41B13500AA49B9 /* ViewController4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController4.swift; sourceTree = "<group>"; };
 		E86B5C2F29BC5577006736BF /* DataBaseSqlite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataBaseSqlite.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E86B5C3229BC5577006736BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E86B5C3429BC5577006736BF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 		E86B5C3129BC5577006736BF /* DataBaseSqlite */ = {
 			isa = PBXGroup;
 			children = (
+				BECB89AF2A41B13500AA49B9 /* ViewController4.swift */,
 				E86B5C3229BC5577006736BF /* AppDelegate.swift */,
 				E86B5C3429BC5577006736BF /* SceneDelegate.swift */,
 				E86B5C3629BC5577006736BF /* ViewController.swift */,
@@ -148,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E86B5C4A29BCABAF006736BF /* ViewController2.swift in Sources */,
+				BECB89B02A41B13500AA49B9 /* ViewController4.swift in Sources */,
 				E86B5C3729BC5577006736BF /* ViewController.swift in Sources */,
 				E86B5C3329BC5577006736BF /* AppDelegate.swift in Sources */,
 				E86B5C4829BCA7BB006736BF /* SQLHelper.swift in Sources */,
